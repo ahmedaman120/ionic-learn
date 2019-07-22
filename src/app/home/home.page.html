@@ -9,6 +9,8 @@
 <ion-content>
   <div class="ion-padding">
     <p>{{name}}</p>
-    <ion-button (click)="handleChange()">Change Name</ion-button>
+    <ion-button expand='block' (click)="handleChange()">Change Name</ion-button>
+    <ion-button (click)='navigate()'>Details</ion-button>
+    <ion-button (click)='navigateWithId()'>Details id=15</ion-button>
   </div>
 </ion-content>
